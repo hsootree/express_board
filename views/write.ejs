@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Author" content="최혜선">
+  <meta name="Generator" content="VisualStudio">
+  <link rel="stylesheet" href="../public/board.css">
+  <title> <% docTitle %> </title>
+  
+</head>
+<body id="writeBody">
+  <div id="wrapper">
+    <h1> 글쓰기 게시판 </h1>
+    <form action=""> 
+      <fieldset >
+        <a href="index.html">게시판목록</a>
+        <input type="submit" value="목록 관리">
+      </fieldset>
+      <fieldset id="boardList">
+        <label for="writeTitle"> 글 제목 </lagbel> 
+        <input type="text" id="writeTitle">
+        <article>
+          <label for="writeContent">내용</label>
+          <textarea id="writeContent" rows="10" cols="90">
+          </textarea>
+        </article>
+      </fieldset>
+      <fieldset id="sendForm">
+          <input type="submit" value="작성완료">
+          <input type="submit" value="취소">
+        </fieldset>
+    </form>
+  </div>
+</body>
+</html>

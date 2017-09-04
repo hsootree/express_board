@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Author" content="최혜선">
+  <meta name="Generator" content="VisualStudio">
+  <link rel="stylesheet" href="../public/list.css">
+  <title> <% tag h1 %> </title>
+</head>
+<body>
+  <div id="wrapper">
+    <h1> 익명 게시판 </h1>
+    <form action=""> 
+      <fieldset >
+        <input type="submit" value="글쓰기">
+        <input type="submit" value="관리자">
+      </fieldset>
+      <ul id="boardList">
+        <% <li> detailTitle <span> writeDate </span></li> %>
+      </ul>
+    </form>
+  </div>
+</body>
+</html>
